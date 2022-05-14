@@ -1,8 +1,6 @@
 // = = = = = VARIABLES = = = = =
 // Colors
-$white: rgb(255, 255, 255);
 $main-color: rgb(205, 100, 100);
-$black: rgb(0, 0, 0);
 // Font sizes etc.
 
 // = = = = = RESET = = = = =
@@ -14,17 +12,48 @@ $black: rgb(0, 0, 0);
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  height: 100%;
   font: 1.5rem Helvetica;
-  color: $black;
-  background-color: $white;
   overflow-x: hidden;
+}
+
+p {
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .container {
@@ -36,20 +65,6 @@ body {
   @media (min-width: 768px) {
     padding: 0 2em;
   }
-}
-
-p {
-  line-height: 150%;
-}
-
-a,
-a:visited,
-a:hover {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 // = = = = = IMPORT STYLES = = = = =
