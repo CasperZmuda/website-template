@@ -1,6 +1,5 @@
-@use './reset.scss'
+@use 'reset';
+// = = = = = STYLES = = = = =
 
-// = = = = = IMPORT STYLES = = = = =
-
-// @use 'nav';
-// @use 'footer';
+// = = = = = MEDIA QUERIES = = = = =
+@use 'rwd';
