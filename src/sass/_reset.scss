@@ -21,7 +21,8 @@ html {
 body {
 	display: flex;
 	flex-direction: column;
-	font: $fsize-n 150% $main-font;
+	font-size: $fsize-n;
+	font-family: $main-font;
 	background-color: #ffffff;
 	overflow-x: hidden;
 }
